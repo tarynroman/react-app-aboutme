@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+/* base styles*/
+
+*{
+  margin: 0;
+  font-family: "Quicksand";
+
+}
+
+.material-symbols-outlined{
+  color:rgb(206, 206, 236);
+  
+
+}
+
+/* START OF --> NAVIGATION BAR STYLES*/
+.navbar {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin: 0 auto;
+  background-color: rgb(65, 91, 144);
+}
+
+.navbar h1{
+  background-color: rgb(65, 91, 144);
+  color:rgb(206, 206, 236);
+}
+
+.navbar .links {
+  background-color: rgb(65, 91, 144);
+
+  margin-left: auto;
+}
+
+.navbar a{
+  background-color: rgb(65, 91, 144);
+
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color:rgb(206, 206, 236);
+}
+
+.navbar a:hover {
+  color:rgb(245, 245, 245);
+}
+/* END OF --> NAVIGATION BAR STYLES*/
+
+/* START OF --> FOOTER STYLES*/
+
+.footer {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  margin: 0 auto;
+  background-color: rgb(65, 91, 144);
+}
+
+.footer h1{
+  background-color: rgb(65, 91, 144);
+  color:rgb(206, 206, 236);
+}
+
+.footer .links {
+  background-color: rgb(65, 91, 144);
+
+  margin-left: auto;
+}
+
+.footer a{
+  background-color: rgb(65, 91, 144);
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color:rgb(206, 206, 236);
+}
+
+.footer a:hover {
+  color:rgb(245, 245, 245);
+}
+
+.footerContent{
+  display:inline-flex;
+  flex-shrink: initial;
+}
+
+
+
+.row{
+  display:inline-flex;
+  flex-shrink: initial;
+}
+
+.column{
+  margin: 15px;
+  padding: 0px 10px;
+}
+
+.rowPara{
+  display:inline-flex;
+  flex-shrink: initial;
+  margin-left: 20px;
+}
+
+
+
+
+.footerConn h1{
+  padding: 2px 30px 0px 20px;
+}
+
+.footerConn p{
+  padding: 6px;
+  margin-left: 16px;
+  margin-right: 600px;
+}
+
+.footerNav{
+  padding: 2px 30px 0px 180px;
+
+}
+.footerNav h1{
+  padding: 2px 30px 0px 20px;
+
+}
+
+.footerNav p{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+
+/* END OF --> FOOTER STYLES*/
+
+/* START OF --> HOME CONTENT STYLES*/
+#home{
+  padding: 20px;
+  text-align: center;
+  margin:10px;
+  background-color: rgb(225, 230, 228);
+
+
+}
+
+#home h1{
+  padding-top: 10px;
+  color: rgb(52, 51, 71);
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 45px;
+}
+
+/* END OF --> HOME CONTENT STYLES*/
+
+
+/* START OF --> HOME PROFILE STYLES*/
+.Portrait{
+  background-image: url(images/coverupdate.jpg);
+  width: 380px;
+  height: 410px;
+  float: left;
+  padding: 2px 0px 20px 10px;
+}
+
+.portraitPara{
+  text-align: left;
+  padding-left: 430px;
+
+}
+
+/* END OF --> HOME PROFILE STYLES*/
+
+/* START OF --> VISUAL PROFILE STYLES*/
+#visualDis h1{
+  font-size: 35px;
+  text-align: center;
+  padding: 20px 10px 30px 60px;}
+
+.row{
+  display:inline-flex;
+  flex-shrink: initial;
+}
+
+.column{
+  margin: 15px;
+  padding: 0px 10px;
+}
+
+.rowPara{
+  display:inline-flex;
+  flex-shrink: initial;
+  margin-left: 20px;
+}
+
+
+.descriptionPlett{
+  padding: 2px 110px 0px 0px;
+}
+
+.descriptionWitt{
+  padding: 2px 0px 0px 110px;
+
+}
+
+.descriptionEd{
+  padding: 2px 0px 0px 180px;
+
+}
+
+/* END OF --> VISUAL PROFILE STYLES*/
+
+/* START OF --> SOV TECH MOTIVATION STYLES*/
+.sovTechImg{
+  background-image: url(images/sovtechLogo.jpg);
+  width: 280px;
+  height: 220px;
+  float: left;
+  padding: 10px 20px 60px 10px;
+}
+
+.sovTechPara{
+  text-align: left;
+  padding-left: 350px;
+
+  font-size: 20px;
+}
+
+/* END OF --> SOV TECH MOTIVATION STYLES*/
+
+
+/* START OF --> CONTACT PAGE STYLES*/
+.contact{
+  background-color: rgb(225, 230, 228);
+  padding: 10px;
+}
+.contactbg{
+  background-image: url(images/codingbg.jpg);
+  height: 200px;
+}
+
+.contactbg h1{
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 70px;
+}
+
+.contact h2{
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+.contact p{
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+/* END OF --> CONTACT PAGE STYLES*/
+
+
+
+
+
+
+
+
