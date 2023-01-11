@@ -34,7 +34,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**\
 
 ### VERCEL APP
-https://react-app-aboutme-8uftm0m8a-tarynroman.vercel.app/Home\
+https://react-app-aboutme-8uftm0m8a-tarynroman.vercel.app/Home
 
 To get to the home page select "Home" in the navigation bar\
 To get to the conntact page, select " Contact" in the navigation bar\
